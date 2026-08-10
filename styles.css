@@ -561,7 +561,7 @@ section {
     opacity: 1;
     margin-top: 1rem;
     padding: 1rem;
-    background: #0f172a;
+    background: black;
     border-radius: 0.5rem;
 }
 .read-more-content p {
@@ -668,10 +668,10 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
-    justify-content: flex-end;   /* 👈 THIS moves them to the right */
+    justify-content: flex-end;
+    margin-top: 1rem;
     margin-bottom: 0.8rem;
 }
-
 .tech-tag {
     background: var(--bg-light);
     color: var(--text-light);
